@@ -16,7 +16,7 @@ from typing import List #added because docker was not working
 load_dotenv()
 
 # Set OpenAI API key
-openai.api_key = os.environ['DANBOT_CHATGPT_API_KEY']
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "source/pdf"  # Path to the folder containing your PDF files
