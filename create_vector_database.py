@@ -7,6 +7,10 @@ import openai
 from dotenv import load_dotenv
 import os
 import shutil
+from typing import List #added because docker was not working
+
+
+    # Your code here
 
 # Load environment variables
 load_dotenv()
